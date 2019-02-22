@@ -10,6 +10,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
+   // @IBAction func homeScreenTap(_ sender: Any) {
+   //     performSegue(withIdentifier: "Two", sender: nil)
+        
+   // }
+    
+    @IBAction func homeButtonTap(_ sender: Any) {
+        performSegue(withIdentifier: "ViewControllerTwo", sender: nil)
+    }
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
