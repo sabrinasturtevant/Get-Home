@@ -403,12 +403,28 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Rectangle 11" translatesAutoresizingMaskIntoConstraints="NO" id="ah1-cg-fVk">
+                                <rect key="frame" x="111" y="206" width="150" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="KJH-vQ-KaL" appends="YES" id="hLx-aw-5bY"/>
+                                </connections>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.085863448679999996" green="0.0061151352710000001" blue="0.18856164810000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="SHw-Rq-OKK"/>
                     </view>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="backToHomeSegue" id="aJA-Vo-b3B"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ld2-JL-5Tn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="KJH-vQ-KaL">
+                    <connections>
+                        <action selector="backToHomeTap:" destination="6KH-YX-WdP" id="CFn-RE-mLf"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="7952.8000000000002" y="120.98950524737631"/>
         </scene>
@@ -628,12 +644,28 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Rectangle 11" translatesAutoresizingMaskIntoConstraints="NO" id="rTo-wG-aCJ">
+                                <rect key="frame" x="111" y="207" width="148" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="U8e-ae-9G6" appends="YES" id="rlq-aR-rQR"/>
+                                </connections>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.085863448679999996" green="0.0061151352710000001" blue="0.18856164810000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="i8n-eY-G31"/>
                     </view>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="backToHomeSegue" id="l6A-R7-ahZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hgk-4u-eSg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="U8e-ae-9G6">
+                    <connections>
+                        <action selector="backToHomeTap:" destination="Plq-4s-4Kb" id="WIW-aK-Q0l"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="12136.799999999999" y="-711.09445277361328"/>
         </scene>
@@ -649,12 +681,28 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Rectangle 11" translatesAutoresizingMaskIntoConstraints="NO" id="DWC-5k-SDd">
+                                <rect key="frame" x="109" y="207" width="151" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="1XA-af-X4F" appends="YES" id="pH4-J9-eX7"/>
+                                </connections>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.085863448679999996" green="0.0061151352710000001" blue="0.18856164810000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="FeR-KA-3H7"/>
                     </view>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="backToHomeSegue" id="4Xb-4M-baN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xq1-cP-JDM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="1XA-af-X4F">
+                    <connections>
+                        <action selector="backToHomeTap:" destination="hxO-j1-9Jm" id="eOd-fK-Kpm"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="13970.4" y="-352.17391304347831"/>
         </scene>
@@ -670,12 +718,28 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Rectangle 11" translatesAutoresizingMaskIntoConstraints="NO" id="NTY-GN-wIK">
+                                <rect key="frame" x="111" y="207" width="151" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="HV6-pH-6Ev" appends="YES" id="Yur-OE-bKg"/>
+                                </connections>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.085863448679999996" green="0.0061151352710000001" blue="0.18856164810000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="2mF-RM-pwZ"/>
                     </view>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="backToHomeSegue" id="OeU-l5-0Ca"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pv1-Ja-kY5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="HV6-pH-6Ev">
+                    <connections>
+                        <action selector="backToHomeTap:" destination="RCZ-dr-JHb" id="ULv-6E-k2m"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="16012" y="207.34632683658174"/>
         </scene>
@@ -691,12 +755,28 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Rectangle 11" translatesAutoresizingMaskIntoConstraints="NO" id="Aal-08-03s">
+                                <rect key="frame" x="108" y="207" width="154" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="het-Dx-QXW" appends="YES" id="2VM-8c-zyF"/>
+                                </connections>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.085863448679999996" green="0.0061151352710000001" blue="0.18856164810000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="cuz-SS-QSg"/>
                     </view>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="backToHomeSegue" id="77S-qf-dXf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vxw-nT-lNh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="het-Dx-QXW">
+                    <connections>
+                        <action selector="backToHomeTap:" destination="fQJ-Ne-Wk2" id="gcU-zJ-Su2"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="16037.6" y="1441.529235382309"/>
         </scene>
@@ -712,12 +792,28 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Rectangle 11" translatesAutoresizingMaskIntoConstraints="NO" id="ga8-A1-JRT">
+                                <rect key="frame" x="110" y="209" width="155" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="EQB-IF-kGO" appends="YES" id="fss-Vh-Rhg"/>
+                                </connections>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.085863448679999996" green="0.0061151352710000001" blue="0.18856164810000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="zcj-Rb-yIW"/>
                     </view>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="backToHomeSegue" id="O52-F8-lcX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zeq-6M-Nrj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="EQB-IF-kGO">
+                    <connections>
+                        <action selector="backToHomeTap:" destination="YFi-0S-oYU" id="0U1-cs-6Ot"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="10440.799999999999" y="1266.1169415292354"/>
         </scene>
@@ -904,5 +1000,6 @@
         <segue reference="X2r-EW-WEw"/>
         <segue reference="1We-K2-n8y"/>
         <segue reference="5VS-GC-FSp"/>
+        <segue reference="77S-qf-dXf"/>
     </inferredMetricsTieBreakers>
 </document>

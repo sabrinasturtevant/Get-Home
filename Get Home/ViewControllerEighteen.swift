@@ -21,6 +21,9 @@ class ViewControllerEightteen: UIViewController {
     }
     
     
+    @IBAction func backToHomeTap(_ sender: Any) {
+        performSegue(withIdentifier: "backToHomeSegue", sender: nil)
+    }
     
     
     override func viewDidLoad() {

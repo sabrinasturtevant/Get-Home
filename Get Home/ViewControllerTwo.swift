@@ -17,6 +17,9 @@ class ViewControllerTwo: UIViewController {
         performSegue(withIdentifier:"segueTwo", sender: nil)
     }
     
+    @IBAction func backToHomeTap(_ sender: Any) {
+        performSegue(withIdentifier: "backToHomeSegue", sender: nil)
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()

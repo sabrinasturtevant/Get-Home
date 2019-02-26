@@ -11,6 +11,11 @@ import UIKit
 
 class ViewControllerTwenty: UIViewController {
     
+    @IBAction func backToHomeTap(_ sender: Any) {
+        performSegue(withIdentifier: "backToHomeSegue", sender: nil)
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
