@@ -8,10 +8,16 @@
 
 import Foundation
 import UIKit
+import SafariServices
 
 class ViewControllerTwo: UIViewController {
     
-    
+    let url = "https://issuesiface.com/magazine/top-10-safety-tips-for-women"
+    @IBAction func walkthroughTapped(_ sender: Any) {
+        let myurl = URL(string: url)
+        let searchView = SFSafariViewController(url: myurl!)
+        present(searchView, animated: true)
+    }
     
     @IBAction func heyYouUpTap(_ sender: Any) {
         performSegue(withIdentifier:"segueTwo", sender: nil)

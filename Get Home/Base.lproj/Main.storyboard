@@ -30,6 +30,17 @@
                                     <outletCollection property="gestureRecognizers" destination="dwg-Vc-B1M" appends="YES" id="mVB-5R-4cs"/>
                                 </connections>
                             </imageView>
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Rate Us" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="03t-7T-eGm">
+                                <rect key="frame" x="41" y="53" width="54" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="16"/>
+                                <color key="textColor" red="0.52646970748901367" green="0.6482585072517395" blue="0.79965496063232422" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="5qX-Os-vOJ" appends="YES" id="G4p-dE-z05"/>
+                                </connections>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -42,6 +53,11 @@
                 <tapGestureRecognizer id="dwg-Vc-B1M">
                     <connections>
                         <action selector="homeButtonTap:" destination="BYZ-38-t0r" id="lhv-Zp-AEF"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="5qX-Os-vOJ">
+                    <connections>
+                        <action selector="rateUsTapped:" destination="BYZ-38-t0r" id="IlJ-9V-3d9"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
@@ -763,6 +779,17 @@
                                     <outletCollection property="gestureRecognizers" destination="het-Dx-QXW" appends="YES" id="2VM-8c-zyF"/>
                                 </connections>
                             </imageView>
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="walkthrough" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yAr-bZ-qLW">
+                                <rect key="frame" x="38" y="47" width="77" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="13"/>
+                                <color key="textColor" red="0.52646970749999999" green="0.64825850730000001" blue="0.79965496059999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="4j2-5w-4vN" appends="YES" id="Fzp-8z-EBE"/>
+                                </connections>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.085863448679999996" green="0.0061151352710000001" blue="0.18856164810000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="cuz-SS-QSg"/>
@@ -775,6 +802,11 @@
                 <tapGestureRecognizer id="het-Dx-QXW">
                     <connections>
                         <action selector="backToHomeTap:" destination="fQJ-Ne-Wk2" id="gcU-zJ-Su2"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="4j2-5w-4vN">
+                    <connections>
+                        <action selector="walkthroughTapped:" destination="fQJ-Ne-Wk2" id="o8Q-rI-5be"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
