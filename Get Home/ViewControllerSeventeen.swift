@@ -8,19 +8,24 @@
 
 import Foundation
 import UIKit
+//imports audioPlayer
+import AVFoundation
+
+//creating variable for audioPlayer func
+var audioPlayer:AVAudioPlayer?
 
 class ViewControllerSeventeen: UIViewController {
     
     @IBAction func runAndScreamTap(_ sender: Any) {
         performSegue(withIdentifier: "runAndScreamSegue", sender: nil)
-    }
+            }
     
     @IBAction func runTap(_ sender: Any) {
         performSegue(withIdentifier: "runSegue", sender: nil)
     }
     
     override func viewDidLoad() {
-        super.viewDidLoad()
+   
         // Do any additional setup after loading the view, typically from a nib.
     }
     
