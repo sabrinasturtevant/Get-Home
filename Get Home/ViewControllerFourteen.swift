@@ -11,11 +11,26 @@ import UIKit
 
 class ViewControllerFourteen: UIViewController {
     
-    
-    @IBAction func backToHomeTap(_ sender: Any) {
-        performSegue(withIdentifier: "backToHomeSegue", sender: nil)
+    struct Bike {
+        var color = String("color")
+        var size = String("size")
+        var reflective = Bool(false)
     }
     
+    
+    var smallBike = Bike(color: "blue", size: "small", reflective: false)
+    var largeNike = Bike(color: "purple", size: "large", reflective: true)
+    
+    
+    
+    @IBAction func backToHomeTap(_ sender: Any) {
+        performSegue(withIdentifier: "smallSegue", sender: nil)
+        
+    }
+    
+    @IBAction func largeTap(_ sender: Any) {
+        performSegue(withIdentifier: "largeSegue", sender: nil)
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
