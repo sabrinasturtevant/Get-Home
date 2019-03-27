@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D93CA3EC224ACC7800AC6420 /* scream.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D93CA3EB224ACC7800AC6420 /* scream.mp3 */; };
+		D93CA3EE224C28A900AC6420 /* ding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D93CA3ED224C28A900AC6420 /* ding.mp3 */; };
 		D944B6E8221E218E0072FC4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D944B6E7221E218E0072FC4C /* AppDelegate.swift */; };
 		D944B6EA221E218E0072FC4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D944B6E9221E218E0072FC4C /* ViewController.swift */; };
 		D944B6ED221E218E0072FC4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D944B6EB221E218E0072FC4C /* Main.storyboard */; };
@@ -37,6 +39,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D93CA3EB224ACC7800AC6420 /* scream.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = scream.mp3; sourceTree = "<group>"; };
+		D93CA3ED224C28A900AC6420 /* ding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ding.mp3; sourceTree = "<group>"; };
 		D944B6E4221E218E0072FC4C /* Get Home.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Get Home.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D944B6E7221E218E0072FC4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D944B6E9221E218E0072FC4C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -79,6 +83,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D93CA3EA224AC60C00AC6420 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				D93CA3ED224C28A900AC6420 /* ding.mp3 */,
+				D93CA3EB224ACC7800AC6420 /* scream.mp3 */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
 		D944B6DB221E218E0072FC4C = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +111,7 @@
 		D944B6E6221E218E0072FC4C /* Get Home */ = {
 			isa = PBXGroup;
 			children = (
+				D93CA3EA224AC60C00AC6420 /* Sound */,
 				D944B6E7221E218E0072FC4C /* AppDelegate.swift */,
 				D944B6E9221E218E0072FC4C /* ViewController.swift */,
 				D958A34C221F6BD7006CCCB3 /* ViewControllerSix.swift */,
@@ -189,8 +203,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D944B6F2221E21900072FC4C /* LaunchScreen.storyboard in Resources */,
+				D93CA3EE224C28A900AC6420 /* ding.mp3 in Resources */,
 				D944B6EF221E21900072FC4C /* Assets.xcassets in Resources */,
 				D944B6ED221E218E0072FC4C /* Main.storyboard in Resources */,
+				D93CA3EC224ACC7800AC6420 /* scream.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

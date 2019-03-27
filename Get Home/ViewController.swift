@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
 
@@ -28,6 +29,13 @@ class ViewController: UIViewController {
         alert.addAction(UIAlertAction(title: "1-3 Stars", style: UIAlertAction.Style.default, handler: nil))
         
         present(alert, animated: true, completion: nil)
+        
+        guard let path = Bundle.main.path(forResource: "ding", ofType: "mp3")
+            else { return }
+        let url = URL(fileURLWithPath: path)
+        audioPlayer = try? AVAudioPlayer(contentsOf: url, fileTypeHint: nil)
+        audioPlayer?.prepareToPlay()
+        audioPlayer?.play()
     }
     
     
