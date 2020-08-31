@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -13,7 +11,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Get_Home" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="BYZ-38-t0r" customClass="ViewController" customModule="Get_Home" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -71,7 +69,7 @@
         <!--View Controller Two-->
         <scene sceneID="DVo-Rt-JjP">
             <objects>
-                <viewController id="2JP-HA-Oyq" customClass="ViewControllerTwo" customModule="Get_Home" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="2JP-HA-Oyq" customClass="ViewControllerTwo" customModule="Get_Home" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zUb-Qe-Ef8">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -116,11 +114,11 @@
             <objects>
                 <viewController id="DYo-8z-NbT" customClass="ViewControllerEleven" customModule="Get_Home" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HmK-v2-cQb">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dark reply find friend window" translatesAutoresizingMaskIntoConstraints="NO" id="jQx-sj-DJ9">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                             </imageView>
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Rectangle 11" translatesAutoresizingMaskIntoConstraints="NO" id="mlP-ZG-8lB">
                                 <rect key="frame" x="45" y="623" width="133" height="34"/>
@@ -170,7 +168,7 @@
         <!--View Controller Nine-->
         <scene sceneID="Eyy-qa-Cl0">
             <objects>
-                <viewController id="Wqe-Eg-PKF" customClass="ViewControllerNine" customModule="Get_Home" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="Wqe-Eg-PKF" customClass="ViewControllerNine" customModule="Get_Home" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0L4-s3-J8v">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -226,7 +224,7 @@
         <!--View Controller Ten-->
         <scene sceneID="VeL-Sv-FFP">
             <objects>
-                <viewController id="vc2-FD-Pff" customClass="ViewControllerTen" customModule="Get_Home" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="vc2-FD-Pff" customClass="ViewControllerTen" customModule="Get_Home" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2C8-HY-n5Y">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -282,7 +280,7 @@
         <!--View Controller Four-->
         <scene sceneID="gsq-cl-5u5">
             <objects>
-                <viewController id="gWC-oy-99K" customClass="ViewControllerFour" customModule="Get_Home" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="gWC-oy-99K" customClass="ViewControllerFour" customModule="Get_Home" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wd4-zJ-acB">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -338,7 +336,7 @@
         <!--View Controller Three-->
         <scene sceneID="JaX-CO-evg">
             <objects>
-                <viewController id="Trz-4n-tVm" customClass="ViewControllerThree" customModule="Get_Home" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="Trz-4n-tVm" customClass="ViewControllerThree" customModule="Get_Home" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="czw-Dq-TsG">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -394,7 +392,7 @@
         <!--View Controller Five-->
         <scene sceneID="AI0-df-rED">
             <objects>
-                <viewController id="gs5-en-itb" customClass="ViewControllerFive" customModule="Get_Home" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="gs5-en-itb" customClass="ViewControllerFive" customModule="Get_Home" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Zzn-AS-rtJ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -450,7 +448,7 @@
         <!--View Controller Twelve-->
         <scene sceneID="OlL-mE-fEv">
             <objects>
-                <viewController id="6KH-YX-WdP" customClass="ViewControllerTwelve" customModule="Get_Home" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="6KH-YX-WdP" customClass="ViewControllerTwelve" customModule="Get_Home" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="h7W-K6-wgl">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -492,7 +490,7 @@
         <!--View Controller Thirteen-->
         <scene sceneID="Ccm-FE-uiD">
             <objects>
-                <viewController id="Esl-uc-ky2" customClass="ViewControllerThirteen" customModule="Get_Home" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="Esl-uc-ky2" customClass="ViewControllerThirteen" customModule="Get_Home" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lZd-b1-m1b">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -548,7 +546,7 @@
         <!--View Controller Fifteen-->
         <scene sceneID="ncC-zQ-JOl">
             <objects>
-                <viewController id="AKD-Uj-eY3" customClass="ViewControllerFifteen" customModule="Get_Home" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="AKD-Uj-eY3" customClass="ViewControllerFifteen" customModule="Get_Home" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="C8C-zz-V34">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -604,7 +602,7 @@
         <!--View Controller Seventeen-->
         <scene sceneID="e9d-FE-fnc">
             <objects>
-                <viewController id="Ewm-Ya-3ye" customClass="ViewControllerSeventeen" customModule="Get_Home" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="Ewm-Ya-3ye" customClass="ViewControllerSeventeen" customModule="Get_Home" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fpg-q9-eKT">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -660,7 +658,7 @@
         <!--View Controller Eightteen-->
         <scene sceneID="3ko-P1-MA9">
             <objects>
-                <viewController id="oiN-TC-i2A" customClass="ViewControllerEightteen" customModule="Get_Home" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="oiN-TC-i2A" customClass="ViewControllerEightteen" customModule="Get_Home" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GGA-T2-znS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -716,7 +714,7 @@
         <!--View Controller Sixteen-->
         <scene sceneID="bN3-DT-IoA">
             <objects>
-                <viewController id="Plq-4s-4Kb" customClass="ViewControllerSixteen" customModule="Get_Home" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="Plq-4s-4Kb" customClass="ViewControllerSixteen" customModule="Get_Home" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GkZ-6u-2QY">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -758,7 +756,7 @@
         <!--View Controller Eightteen-->
         <scene sceneID="Lbe-As-QGf">
             <objects>
-                <viewController id="hxO-j1-9Jm" customClass="ViewControllerEightteen" customModule="Get_Home" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="hxO-j1-9Jm" customClass="ViewControllerEightteen" customModule="Get_Home" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ic9-WG-rdz">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -800,7 +798,7 @@
         <!--View Controller Twenty-->
         <scene sceneID="eEp-az-gIl">
             <objects>
-                <viewController id="RCZ-dr-JHb" customClass="ViewControllerTwenty" customModule="Get_Home" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="RCZ-dr-JHb" customClass="ViewControllerTwenty" customModule="Get_Home" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jxk-9E-Sak">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -842,7 +840,7 @@
         <!--View Controller Two-->
         <scene sceneID="Uqh-QU-mpk">
             <objects>
-                <viewController id="fQJ-Ne-Wk2" customClass="ViewControllerTwo" customModule="Get_Home" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="fQJ-Ne-Wk2" customClass="ViewControllerTwo" customModule="Get_Home" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="RFv-ZA-pqQ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -859,7 +857,7 @@
                                 </connections>
                             </imageView>
                             <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="walkthrough" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yAr-bZ-qLW">
-                                <rect key="frame" x="38" y="47" width="71.5" height="18"/>
+                                <rect key="frame" x="38" y="27" width="71.5" height="18"/>
                                 <gestureRecognizers/>
                                 <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="13"/>
                                 <color key="textColor" red="0.52646970749999999" green="0.64825850730000001" blue="0.79965496059999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -901,7 +899,7 @@
         <!--View Controller Fourteen-->
         <scene sceneID="TDz-mo-moX">
             <objects>
-                <viewController id="YFi-0S-oYU" customClass="ViewControllerFourteen" customModule="Get_Home" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="YFi-0S-oYU" customClass="ViewControllerFourteen" customModule="Get_Home" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EfZ-yK-DSh">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -957,7 +955,7 @@
         <!--View Controller Twenty Two-->
         <scene sceneID="vjc-nc-G5i">
             <objects>
-                <viewController id="MM4-Lo-m2d" customClass="ViewControllerTwentyTwo" customModule="Get_Home" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="MM4-Lo-m2d" customClass="ViewControllerTwentyTwo" customModule="Get_Home" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="X0K-8C-trN">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -995,7 +993,7 @@
         <!--View Controller Twenty Three-->
         <scene sceneID="vHv-ep-ASI">
             <objects>
-                <viewController id="EJp-7X-fx6" customClass="ViewControllerTwentyThree" customModule="Get_Home" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="EJp-7X-fx6" customClass="ViewControllerTwentyThree" customModule="Get_Home" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="G9I-aE-uIO">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1047,7 +1045,7 @@
         <!--View Controller Six-->
         <scene sceneID="BhM-5S-ffh">
             <objects>
-                <viewController id="1pB-bt-rad" customClass="ViewControllerSix" customModule="Get_Home" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="1pB-bt-rad" customClass="ViewControllerSix" customModule="Get_Home" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wPa-6W-A81">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1103,7 +1101,7 @@
         <!--View Controller Eight-->
         <scene sceneID="nEP-w2-E8U">
             <objects>
-                <viewController id="jYu-Ph-qM9" customClass="ViewControllerEight" customModule="Get_Home" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="jYu-Ph-qM9" customClass="ViewControllerEight" customModule="Get_Home" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="X9q-7D-dqe">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1159,7 +1157,7 @@
         <!--View Controller Seven-->
         <scene sceneID="0ag-OY-dXi">
             <objects>
-                <viewController id="yQl-dy-geh" customClass="ViewControllerSeven" customModule="Get_Home" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="yQl-dy-geh" customClass="ViewControllerSeven" customModule="Get_Home" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="soi-i9-dXz">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1213,6 +1211,15 @@
             <point key="canvasLocation" x="4725.6000000000004" y="2132.3838080959522"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="9D3-QI-Zbq"/>
+        <segue reference="kdg-ei-MD5"/>
+        <segue reference="XrQ-L7-gwi"/>
+        <segue reference="oyP-DS-2m5"/>
+        <segue reference="0T6-sK-kGI"/>
+        <segue reference="mc2-mK-smc"/>
+        <segue reference="4Xb-4M-baN"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="1st Game Over" width="375" height="812"/>
         <image name="2nd Screen" width="375" height="812"/>
@@ -1239,13 +1246,4 @@
         <image name="park" width="375" height="812"/>
         <image name="street signs" width="375" height="812"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="9D3-QI-Zbq"/>
-        <segue reference="YPW-cX-hyR"/>
-        <segue reference="RxJ-gI-DQr"/>
-        <segue reference="EYZ-lZ-gNR"/>
-        <segue reference="vRo-b1-Joi"/>
-        <segue reference="5VS-GC-FSp"/>
-        <segue reference="x4j-Bg-cCW"/>
-    </inferredMetricsTieBreakers>
 </document>
